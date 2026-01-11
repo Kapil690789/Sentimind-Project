@@ -1,0 +1,19 @@
+# --- Virtual Environments () ---
+venv/
+env/
+.venv/
+
+# --- Sensitive Keys (Sabse Important) ---
+.env
+.env.local
+
+# --- Python Cache Files ---
+__pycache__/
+*.pyc
+
+# --- Operating System Files (Mac/Windows garbage) ---
+.DS_Store
+Thumbs.db
+
+# --- Streamlit Cache ---
+.streamlit/
